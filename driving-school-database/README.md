@@ -1,4 +1,4 @@
-## Relational Database Design - Driving School Management System
+## Driving School Management System
 
 ### Project Overview
 This project defines a relational database schema for an enterprise driving school implemented in Oracle SQL. It streamlines operational tracking across student profiles, instructor scheduling, fleet vehicle allocations, booking states, and transaction invoicing.
