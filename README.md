@@ -16,7 +16,7 @@ This repository contains my data analytics and database projects, focusing on SQ
 - **[Taiwan Renewable Energy Market Forecast](./renewable-energy-analytics)**
 <br>Combined multi-national energy datasets into a Power BI dashboard with time-series forecasting to track long-term green energy trends.
 
-- **[Corporate Data Warehousing & SQL Analytics](./warehousing-data-analytics)**
+- **[Warehousing Data Analytics](./warehousing-data-analytics)**
 <br>Built an Oracle SQL Star Schema and used advanced Window Functions (`ROW_NUMBER() OVER`) to rank carrier performance and catch cost leaks.
 
 
