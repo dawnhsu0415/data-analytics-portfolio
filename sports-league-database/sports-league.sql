@@ -1,9 +1,4 @@
--- ====================================================================
--- PROJECT: Relational Database Design & Sports Analytics
--- DBMS: Oracle SQL
--- ====================================================================
-
--- 1. DROP TABLES (Ensures script can be re-run cleanly)
+-- 1. DROP TABLES
 DROP TABLE AllocatedCard CASCADE CONSTRAINTS;
 DROP TABLE GameReferee CASCADE CONSTRAINTS;
 DROP TABLE ScoredGoal CASCADE CONSTRAINTS;
@@ -116,7 +111,7 @@ CREATE TABLE AllocatedCard (
     CONSTRAINT fk_ac_gr FOREIGN KEY (gameRefereeID) REFERENCES GameReferee(gameRefereeID)
 );
 
--- 3. INSERT MOCK DATA (DML - Fixed quotes & syntax)
+-- 3. INSERT MOCK DATA
 INSERT INTO Referee VALUES ('ref001', 'Sam', 'Smith');
 INSERT INTO Lesson VALUES ('week001', 'Week 1', TO_DATE('2024-07-01', 'YYYY-MM-DD'), TO_DATE('2024-07-07', 'YYYY-MM-DD'));
 INSERT INTO Club VALUES ('club001', 'Perth Glory', 'East Perth', '6004');
@@ -129,12 +124,11 @@ INSERT INTO Referee VALUES ('ref008', 'Alex', 'Green');
 INSERT INTO GameReferee VALUES ('gmref008', 'Main', 'game001', 'ref008');
 INSERT INTO AllocatedCard VALUES ('card001', 'Yellow', 'gplay0001', 'gmref008');
 
--- 4. PRODUCTION READINESS: PERFORMANCE INDEXING (Highly valued in AU)
+-- 4. PERFORMANCE INDEXING
 CREATE INDEX idx_gameplayer_game ON GamePlayer(gameID);
 CREATE INDEX idx_allocatedcard_gp ON AllocatedCard(gamePlayerID);
 
 -- 5. ADVANCED BI ANALYTICAL QUERIES
--- Query: Player Discipline Analysis (Most penalised player)
 SELECT p.playerID AS "Player ID", 
        p.playerFirstName || ' ' || p.playerLastName AS "Player Name",
        SUM(CASE WHEN ac.allocatedCardDescript = 'Yellow' THEN 1 ELSE 0 END) AS "Yellow Cards",
