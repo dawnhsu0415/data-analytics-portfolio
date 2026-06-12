@@ -1,4 +1,4 @@
-## Relational Database Design & Sports Analytics System
+## Sports Analytics System
 
 ### Project Overview
 This project delivers a fully-normalized relational database schema built in an Oracle SQL environment to manage complex sports league operations. 
