@@ -1,8 +1,8 @@
 ## Relational Database Design & Sports Analytics System
 
 ### Project Overview
-This project delivers a fully-normalized relational database schema (3NF) built in an Oracle SQL environment to manage complex sports league operations. 
-It efficiently tracks clubs, teams, player profiles, match fixture synchronization, live match event logging (goals), and referee allocations.
+This project delivers a fully-normalized relational database schema built in an Oracle SQL environment to manage complex sports league operations. 
+It efficiently tracks clubs, teams, player profiles, match fixture synchronization, live match event logging, and referee allocations.
 
 ### Data Modeling & ERD
 The schema translates multi-layered business rules into a highly integrated relational structure.
