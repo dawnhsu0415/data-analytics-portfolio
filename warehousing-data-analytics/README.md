@@ -1,4 +1,4 @@
-## Customer Transaction Data Warehousing & SQL Analytics
+## Warehousing Data Analytics
 
 ### Project Overview
 This project builds a retail Data Warehouse in an Oracle SQL environment using Kimball dimensional modeling to transform purchasing logs into clean tables for business analysis.
