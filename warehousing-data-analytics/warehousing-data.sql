@@ -1,5 +1,4 @@
-
--- 1. SCHEMA IMPLEMENTATION (TABLE CREATION & CONSTRAINTS)
+-- 1. SCHEMA IMPLEMENTATION
 
 CREATE TABLE Dim_Time (
     Time_ID INT PRIMARY KEY,
@@ -79,8 +78,7 @@ ORDER BY
     t.Year DESC, Total_Revenue DESC;
 
 
--- 3. ANALYTICAL WINDOW FUNCTIONS (RANKING STORES)
-
+-- 3. ANALYTICAL WINDOW FUNCTIONS
 -- Business Goal: Dynamically rank top-performing stores within each region based on monthly sales.
 
 SELECT 
@@ -101,9 +99,7 @@ GROUP BY
     t.Year, t.Month, s.Region, s.StoreName;
 
 
-
--- 4. BUSINESS INSIGHTS (CROSS-ANALYSIS FOR INVENTORY)
-
+-- 4. BUSINESS INSIGHTS
 -- Business Goal: Isolate lower-performing brands (Satisfaction < 3) with high purchase volumes to flag quality issues.
 
 SELECT 
