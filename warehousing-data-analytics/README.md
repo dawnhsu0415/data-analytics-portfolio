@@ -13,14 +13,10 @@ This project builds a retail Data Warehouse in an Oracle SQL environment using K
 
 ### SQL Tech Highlights
 
-* **Schema Implementation**
-    Written `ALTER TABLE` scripts and set up strict `PRIMARY KEY` and `FOREIGN KEY` constraints to link all tables.
+* **Schema Implementation**: Written `ALTER TABLE` scripts and set up strict `PRIMARY KEY` and `FOREIGN KEY` constraints to link all tables.
 
-* **Advanced SQL Queries**
-    Used deep table joins, multi level aggregations, and date filters to extract revenue trends and seasonal metrics.
+* **Advanced SQL Queries**: Used deep table joins, multi level aggregations, and date filters to extract revenue trends and seasonal metrics.
 
-* **Analytical Window Functions**
-    Applied `ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...)` to rank top performing stores and customer segments.
+* **Analytical Window Functions**: Applied `ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...)` to rank top performing stores and customer segments.
 
-* **Business Insights**
-    Cross analyzed product categories with `Satisfaction_Score` to find lower performing brands and improve inventory.
+* **Business Insights**: Cross analyzed product categories with `Satisfaction_Score` to find lower performing brands and improve inventory.
