@@ -6,6 +6,7 @@ It efficiently tracks clubs, teams, player profiles, match fixture synchronizati
 
 ### Data Modeling & ERD
 The schema translates multi-layered business rules into a highly integrated relational structure.
+![sports league ERD](sports-league-ERD.png)
 
 ### Key Database Features Implemented
 - **Referential Integrity Constraints:** Programmed explicit `PRIMARY KEY` and `FOREIGN KEY` constraints across 15+ interconnected entities to guarantee zero mapping deviations.
