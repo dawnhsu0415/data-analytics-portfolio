@@ -1,4 +1,4 @@
-## Cloud Billing Integration System - End-to-End System Design
+## Cloud Billing System Design
 
 ### Project Overview
 This project demonstrates the comprehensive System Analysis and Design for the Billing Integration module within CloudCore Networks' Cloud Service Management Platform (CSMP). It bridges the gap between complex financial requirements and technical engineering execution.
