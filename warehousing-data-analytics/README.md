@@ -8,6 +8,9 @@ This project implements a Data Warehouse schema and analytical SQL queries in an
 - **Multi-Table Joins:** Connected 5 relational tables to aggregate metrics.
 - **Data Definition:** Set up Primary Keys (PK) and Foreign Keys (FK) to enforce constraints.
 
+### Architecture Blueprint:
+![warehousing ERD](warehousing-ERD.png)
+
 ### Business Insights
 - **Logistics:** Identified as the highest-volume partner to support contract renewals.
 - **Customer Value:** Isolated the top-spending customer for loyalty programs.
