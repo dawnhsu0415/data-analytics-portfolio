@@ -4,6 +4,12 @@ This repository contains my data analytics and database projects, focusing on SQ
 
 ### Projects
 
+- **[Cloud Billing & Infrastructure System Design](./cloud-billing-system-design)**
+<br>Created functional process flowcharts, database blueprints, and complete UI wireframe mockups for an automated cloud invoicing system.
+
+- **[Sports League & Driving School Databases](./database-design-projects)**
+<br>Developed relational database blueprints from scratch using clean ERD models, table normalization, and database reset scripts.
+
 - **[Curtin Law School Recruitment Analytics](./enrollment-insights-analytics)**
 <br>Cleaned 11 years of student data and built a Power BI dashboard to fix recruitment cluster risks for the Law School.
 
@@ -13,11 +19,7 @@ This repository contains my data analytics and database projects, focusing on SQ
 - **[Corporate Data Warehousing & SQL Analytics](./warehousing-data-analytics)**
 <br>Built an Oracle SQL Star Schema and used advanced Window Functions (`ROW_NUMBER() OVER`) to rank carrier performance and catch cost leaks.
 
-- **[Sports League & Driving School Databases](./database-design-projects)**
-<br>Developed relational database blueprints from scratch using clean ERD models, table normalization, and database reset scripts.
 
-- **[Cloud Billing & Infrastructure System Design](./cloud-billing-system-design)**
-<br>Created functional process flowcharts, database blueprints, and complete UI wireframe mockups for an automated cloud invoicing system.
 
 ---
 
