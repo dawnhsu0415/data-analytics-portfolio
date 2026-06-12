@@ -7,7 +7,7 @@ This project defines a relational database schema for an enterprise driving scho
 The model enforces strict entity constraints, handling high-frequency operational transactions and cross-table associative mapping.
 
 #### Entity Relationship Blueprint:
-![Database ERD](driving-school-ERD.png)
+![driving school ERD](driving-school-ERD.png)
 
 ### Key Database Features Implemented
 - **Data Integrity & Constraints:** Configured composite reference paths using explicit `PRIMARY KEY` and `FOREIGN KEY` constraints with strict `NOT NULL` data validation.
