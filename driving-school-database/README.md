@@ -3,10 +3,7 @@
 ### Project Overview
 This project defines a relational database schema for an enterprise driving school implemented in Oracle SQL. It streamlines operational tracking across student profiles, instructor scheduling, fleet vehicle allocations, booking states, and transaction invoicing.
 
-### Relational Architecture (ERD)
-The model enforces strict entity constraints, handling high-frequency operational transactions and cross-table associative mapping.
-
-#### Entity Relationship Blueprint:
+#### Entity Relationship Diagram:
 ![driving school ERD](driving-school-ERD.png)
 
 ### Key Database Features Implemented
