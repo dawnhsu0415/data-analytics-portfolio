@@ -1,17 +1,17 @@
-# Customer Transaction Data Warehousing & SQL Analytics
+## Customer Transaction Data Warehousing & SQL Analytics
 
-## Project Overview
+### Project Overview
 This project builds a retail Data Warehouse in an Oracle SQL environment using Kimball dimensional modeling to transform purchasing logs into clean tables for business analysis.
 
-## Data Architecture
+### Data Architecture
 - **Database Design:** Star Schema built for quick business queries.
 - **Fact Table:** `Customer_Transaction_Fact` (Tracks TransactionCount, Sales_Amount, Quantity_Purchased, Satisfaction_Score)
 - **Dimension Tables:** `Dim_Time`, `Dim_Channel`, `Dim_Store`, `Dim_Customer`, `Dim_Product`
 
-### Architecture Blueprint:
+#### Architecture Blueprint:
 ![warehousing ERD](warehousing-ERD.png)
 
-## SQL Tech Highlights
+### SQL Tech Highlights
 
 * **Schema Implementation**
     Written `ALTER TABLE` scripts and set up strict `PRIMARY KEY` and `FOREIGN KEY` constraints to link all tables.
