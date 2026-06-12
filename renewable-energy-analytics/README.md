@@ -1,19 +1,20 @@
-## Corporate Data Warehousing & Advanced SQL Analytics
+## Taiwan Renewable Energy Market Analytics & Forecasting
 
-### What this project does
-This project is about building a Data Warehouse for a logistics company using Oracle SQL. I took messy, raw order records and reorganized them into a clean "Star Schema" based on Kimball's theory. This allows the business to easily run queries, find out which shipping vendors are the most cost-effective, spot VIP customers, and help the company save money.
+### Project Overview
+This project analyzes Taiwan's renewable energy data and forecasts its trajectory from 2006 to 2030. By organizing raw multinational energy datasets, the project tracks energy shifts, compares regional markets, and models future sustainability targets.
 
-### Data Architecture
-- **Database Design:** Optimized Star Schema architecture.
-- **Core Fact Table:** `Ship_Fact` (Tracks quantity, shipment weight, and shipping costs)
-- **Dimension Tables:** `Dim_Customer`, `Dim_Product`, `Dim_Shipper`, `Dim_Date`
+### Analytics Dashboard & Visualizations
+The analysis is presented through an interactive Power BI executive dashboard.
 
-#### Architecture Blueprint:
-![Renewable Energy BI](renewable-energy-BI.png)
+#### Executive Dashboard Preview:
+![renewable energy BI](renewable-energy-BI.png)
 
-### SQL Tech Highlights
+### Key Analytics & Technical Capabilities
 
-- **Fixing Table Structures:** Written `ALTER TABLE` scripts to add new columns and manually set up `PRIMARY KEY` and `FOREIGN KEY` constraints to make sure the tables link perfectly without data errors.
-- **Advanced SQL Joins:** Written heavy queries using multiple `JOIN` statements, `SUM` aggregations, and date functions (`EXTRACT YEAR`) to pull out real business metrics.
-- **Using Window Functions:** Used `ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...)` to dynamically rank the top-performing shipping vendors for each month.
-- **Helping the Business Save Money:** Found the top VIP customer who spent the most money in 2024, and caught shipping cost anomalies to help the company choose better logistics vendors.
+* **End-to-End ETL Infrastructure**<br>Built ETL pipelines using Power Query to clean, normalize, and combine different multinational energy profiles.
+
+* **Time-Series Predictive Forecasting**<br>Used forecasting models in Power BI to project Taiwan's 2030 renewable energy market share and check if it matches sustainability targets.
+
+* **Cross-Border Market Benchmarking**<br>Created data models to compare national grid compositions across Japan, Thailand, South Korea, and Taiwan.
+
+* **Macro-Environmental Risk Assessment**<br>Analyzed regional risks regarding regulations, grid infrastructure limits, and supply chain considerations for solar and wind energy.
