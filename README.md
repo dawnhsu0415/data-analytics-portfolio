@@ -1,4 +1,4 @@
-# data-analytics-portfolio
+# Data-Analytics-Portfolio
 
 # Corporate Data Warehousing & Advanced SQL Analytics
 
