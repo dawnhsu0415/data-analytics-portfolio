@@ -9,7 +9,7 @@ This project is about building a Data Warehouse for a logistics company using Or
 - **Dimension Tables:** `Dim_Customer`, `Dim_Product`, `Dim_Shipper`, `Dim_Date`
 
 #### Architecture Blueprint:
-![Star Schema ERD](star-schema-erd.png)
+![Renewable Energy BI](renewable-energy-BI.pdf)
 
 ### SQL Tech Highlights
 
