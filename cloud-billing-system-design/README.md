@@ -19,8 +19,9 @@ Maps the exact multi-tiered interaction between the User Interface, Billing Cont
 
 ### Interface Prototype & User Experience (UX)
 High-fidelity mockups showcasing real-time cloud resource allocation tracking, invoicing statuses, and modular account controls.
-![Client_UI](client-UI.jpg)
-![report_UI](report-UI.jpg)
+![Client UI](Client-UI.png)
+![Staff UI](Staff-UI.png)
+![report UI](report-UI.png)
 
 ### Quality Attributes (Non-Functional Requirements)
 - **Performance & Latency:** Targeted basic billing operations and dashboard updates to execute under 2 seconds.
