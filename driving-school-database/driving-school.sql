@@ -1,9 +1,4 @@
--- ====================================================================
--- PROJECT: Relational Database Design - Driving School Management
--- DBMS: Oracle SQL
--- ====================================================================
-
--- 1. DROP TABLES (Ensures script can be re-run cleanly)
+-- 1. DROP TABLES
 DROP TABLE Payment CASCADE CONSTRAINTS;
 DROP TABLE StudentLesson CASCADE CONSTRAINTS;
 DROP TABLE Vehicle CASCADE CONSTRAINTS;
@@ -11,7 +6,7 @@ DROP TABLE Lesson CASCADE CONSTRAINTS;
 DROP TABLE Instructor CASCADE CONSTRAINTS;
 DROP TABLE Student CASCADE CONSTRAINTS;
 
--- 2. CREATE TABLES (DDL - Clean & Enforced Constraints)
+-- 2. CREATE TABLES
 CREATE TABLE Student(
     studentID          CHAR(6) PRIMARY KEY,
     stuFirstName       VARCHAR2(15) NOT NULL,
@@ -67,7 +62,7 @@ CREATE TABLE Payment(
     CONSTRAINT fk_payment_sl FOREIGN KEY (studentlessonID) REFERENCES StudentLesson(studentlessonID)
 );
 
--- 3. INSERT MOCK DATA (DML Sample)
+-- 3. INSERT MOCK DATA
 INSERT INTO Student VALUES ('st0001', 'Fang-Ting', 'Hsu', '0412345678', 'Midland', 'Midland');
 INSERT INTO Instructor VALUES ('ins0001', 'Kath', 'Brussels', '0487654321');
 INSERT INTO Lesson VALUES ('les001', 'Standard-PLUS', '1 hour', 75.00);
@@ -80,7 +75,6 @@ CREATE INDEX idx_studentlesson_student ON StudentLesson(studentID);
 CREATE INDEX idx_studentlesson_date ON StudentLesson(slDate);
 
 -- 5. ADVANCED BI ANALYTICAL QUERY
--- Query: Revenue Contribution per Student by Lesson Type
 SELECT
     les.lesType AS "Lesson Type",
     st.studentID AS "Student ID",
